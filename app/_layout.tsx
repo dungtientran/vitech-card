@@ -13,7 +13,6 @@ import "react-native-reanimated";
 import Provider from "@/components/providers";
 import { loadFonts, loadImages } from "@/theme";
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
 export const Router = () => {

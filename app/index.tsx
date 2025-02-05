@@ -2,7 +2,7 @@ import { Colors } from "@/theme";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const SplashScreen = () => {
+const WelComeScreen = () => {
   return (
     <View
       style={{
@@ -17,15 +17,9 @@ const SplashScreen = () => {
           color: "white",
         }}
       >
-        SplashScree
+        WelComeScreen
       </Text>
-      <Text
-        style={{
-          color: "white",
-        }}
-      >
-   SplashScree
-      </Text>
+    
     </View>
   );
 };
@@ -57,4 +51,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SplashScreen;
+export default WelComeScreen;
